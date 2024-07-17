@@ -1,4 +1,4 @@
-//DEFINIR NUMERO ALEATORIO A TRAVES DE LA FUNCION GENERADORA
+//DEFINICION DE VARIABLES
 let numeroSecreto = 0;
 let intentos = 0;
 let listaNumerosSorteados = [];
@@ -43,7 +43,7 @@ function limpiarCaja() {
 //FUNCION GENERADORA DE NUMERO ALEATORIO
 function generarNumeroSecreto() {
     let numeroGenerado =  Math.floor(Math.random()*numeroMaximo)+1;
-
+    //mostramos los valores generados
     console.log("Numero generado: " +numeroGenerado);
     console.log(listaNumerosSorteados);
     //Si ya sorteamos todos los números
